@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- BMW Premium Footer -->
+<footer class="bmw-footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <div class="bmw-logo">BMW</div>
+      <h2>Sheer Driving Pleasure</h2>
+      <p>
+        Discover the world of BMW — innovative design,
+        outstanding performance and pure driving pleasure.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h3>BMW</h3>
+      <a href="#">Home</a>
+      <a href="#">Models</a>
+      <a href="#">Electric</a>
+      <a href="#">Innovation</a>
+      <a href="#">About BMW</a>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-column">
+      <h3>Services</h3>
+      <a href="#">Book a Test Drive</a>
+      <a href="#">Find a Dealer</a>
+      <a href="#">BMW Service</a>
+      <a href="#">Finance</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Social -->
+    <div class="footer-column">
+      <h3>Follow BMW</h3>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">YouTube</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 BMW. All Rights Reserved.</p>
+
+    <div class="footer-bottom-links">
+      <a href="#">Privacy</a>
+      <a href="#">Legal</a>
+      <a href="#">Cookies</a>
+    </div>
+  </div>
+</footer>
+
+
+<style>
+/* =========================
+   BMW FOOTER
+========================= */
+
+.bmw-footer {
+  background: #050505;
+  color: #fff;
+  padding: 75px 7% 25px;
+  border-top: 1px solid #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+/* Brand */
+
+.footer-brand .bmw-logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.footer-brand h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.footer-brand p {
+  color: #999;
+  line-height: 1.8;
+  max-width: 400px;
+  font-size: 14px;
+}
+
+/* Columns */
+
+.footer-column h3 {
+  font-size: 15px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer-column a {
+  display: block;
+  text-decoration: none;
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #fff;
+  transform: translateX(5px);
+}
+
+/* Social */
+
+.social-links a {
+  margin-bottom: 15px;
+}
+
+/* Bottom */
+
+.footer-bottom {
+  max-width: 1300px;
+  margin: 65px auto 0;
+  padding-top: 25px;
+  border-top: 1px solid #252525;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  color: #777;
+  font-size: 13px;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-bottom-links a {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.footer-bottom-links a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bmw-footer {
+    padding: 55px 25px 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 45px;
+  }
+
+  .footer-bottom-links {
+    flex-wrap: wrap;
+  }
+}
+</style>
+
+</body>
+</html>
